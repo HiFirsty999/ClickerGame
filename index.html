@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker</title>
+    <link rel="stylesheet" href="styles/mainstyle.css">
+</head>
+<body>
+    <div class="Main">
+        <section class="Clicks">
+            <button class="MainInput" id="ClickingButton" onclick="increaseValue()">Click Here!</button>
+            <br>
+            <br>
+            <button class="InputButton" id="IncreaseValuePerClickFor2Button" onclick="increaseValuePerClickFor2()">Increase Value Per Click For 2 - requires 20 Clicks</button>
+            <br>
+            <br>
+            <button class="InputButton" id="IncreaseValuePerClickFor4Button" onclick="increaseValuePerClickFor4()">Increase Value Per Click For 4 - requires 40 Clicks</button>
+            <br>
+            <br>
+            <button class="InputButton" id="IncreaseValuePerClickFor8Button" onclick="increaseValuePerClickFor8()">Increase Value Per Click For 8 - requires 80 Clicks</button>
+            <br>
+            <br>
+            <button class="InputButton" id="IncreaseValuePerClickFor16Button" onclick="increaseValuePerClickFor16()">Increase Value Per Click For 16 - requires 160 Clicks</button>
+        </section>
+
+        <br>
+        <br>
+
+        <section class="LabelAndButtons">
+            <label class="Label" id="TotalClicked">Total Clicks: 123</label>
+            <br>
+            <br>
+            <label class="Label" id="TotalClicksPerClick">Clicks Per Click: 456</label>
+            <br>
+            <br>
+            <button class="InputButton" id="ResetButton" onclick="ResetAllValue()">Reset All Value</button>
+            <br>
+            <br>
+            <button class="InputButton" id="ResetClicksButton" onclick="ResetClicksValue()">Reset Clicks Value</button>
+            <br>
+            <br>
+            <button class="InputButton" id="ResetValuePerClicks" onclick="ResetValuePerClicks()">Reset Clicks Per Click Value</button>
+        </section>
+
+        <br>
+        <br>
+
+        <p class="Paragraph" id="None"><span style="color: darkgreen;">Note: This game will not save any changes</span></p>
+    </div>
+    <script src="scripts/mainscript.js"></script>
+    <script src="scripts/idk.js"></script>
+</body>
+</html>

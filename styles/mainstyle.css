@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: flex-start;
+
+    font-family: sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.Main {
+    display: flex, list-item;
+}
+
+.MainInput {
+    font-family: sans-serif;
+    height: 8vh;
+    width: 8vh;
+    background-color: rgb(200, 200, 200);
+    cursor: pointer;
+
+    text-wrap: wrap;
+    white-space: normal;
+}
+
+.InputButton {
+    font-family: sans-serif;
+    height: 8vh;
+    width: 16vh;
+    background-color: rgb(200, 200, 200);
+    opacity: 0.5;
+    cursor: pointer;
+    pointer-events: none;
+
+    text-wrap: wrap;
+    white-space: normal;
+}
